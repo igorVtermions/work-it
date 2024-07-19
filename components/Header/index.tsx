@@ -14,7 +14,7 @@ export default function Header() {
               <Link href="/">opção 1</Link>
             </li>
             <li>
-             <Link href="/" className="text-white">opção 2</Link>
+             <Link href="/login" className="text-white">login</Link>
             </li>
           </ul>
         </nav>
