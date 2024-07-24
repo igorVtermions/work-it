@@ -11,7 +11,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header  className="w-full sticky top-0 bg-black p-5 ">
+    <header  className="w-full sticky top-0 bg-purple-950 p-5 ">
       <div className="max-w-[1280px] mx-auto flex items-center justify-between">
         <Link href="/" className="flex items-center justify-between">
         <h1 className="text-white font-bold text-2xl">Work <span className="text-purple-800 bg-white rounded-sm px-1">it</span></h1>
@@ -29,7 +29,7 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-        <Button className="bg-purple-800 hover:bg-purple-950 transition delay-150 duration-300 ease-in-out hidden lg:block"><Link href="/login">Login</Link></Button>
+        <Button className="bg-purple-800 hover:bg-purple-900 transition delay-150 duration-300 ease-in-out hidden lg:block cursor-pointer"><Link href="/login">Login</Link></Button>
         
         <Sheet>
       <SheetTrigger asChild>
