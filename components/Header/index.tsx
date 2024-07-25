@@ -22,7 +22,7 @@ export default function Header() {
               <Link href="/">opção 1</Link>
             </li>
             <li className="text-white hover:text-purple-400 transition delay-150 duration-300 ease-in-out">
-              <Link href="/">opção 2</Link>
+              <Link href="/#sobre">Sobre</Link>
             </li>
             <li className="text-white hover:text-purple-400 transition delay-150 duration-300 ease-in-out">
               <Link href="/">opção 3</Link>
