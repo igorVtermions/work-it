@@ -10,12 +10,13 @@ interface FeatureBlockProps {
     title: string
     text: string
     buttonText?: string
+    picture: React.ReactNode
 }
 
-export default function FetureBlock({inverse, title, text, buttonText}: FeatureBlockProps) {
+export default function FetureBlock({inverse, title, text, buttonText, picture}: FeatureBlockProps) {
   return (
     <div id='sobre' className={`flex-col ${inverse ? 'lg:flex-row-reverse' : 'lg:flex-row'} max-w-[1280px] mx-auto flex items-center justify-between py-6 gap-12 px-7`}>
-        <Image src={teste} alt='imagem teste' className='w-[320px] h-[320px]' />
+        {picture}
         <div className='flex flex-col gap-2 items-center text-center lg:items-start lg:text-left'>
             <h2 className='text-xl lg:text-3xl font-semibold'>{title}</h2>
             <Dash />

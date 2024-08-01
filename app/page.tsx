@@ -1,5 +1,6 @@
 import Banner from "@/Partials/Home/Banner";
 import About from "@/Partials/Home/About";
+import HowToUse from "@/Partials/Home/HowToUse";
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
    <>
      <Banner />
      <About />
+     <HowToUse />
    </>
   );
 }
