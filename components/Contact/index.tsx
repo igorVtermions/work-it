@@ -2,8 +2,7 @@ import React from 'react'
 import Dash from '../dash'
 import Link from "next/link";
 import { Button } from "@/components/ui/button"
-import { FaPhoneAlt } from "react-icons/fa";
-import { SiWhatsapp } from "react-icons/si";
+import { MessageCircleMore, Phone } from "lucide-react"
 import sac from "@/public/sac.svg"
 import Image from "next/image"
 
@@ -35,8 +34,8 @@ export default function Contact() {
             <h2 className='mb-4 font-semibold text-xl'>Entre em contato conosco pelo seu smartphone</h2>
             <Dash />
             <div className='flex flex-col items-center '>
-            <Button className="bg-purple-800 hover:bg-purple-950 transition delay-150 duration-300 ease-in-out mt-6 text-xl p-4"><Link href="123456789101" className='flex p-2 items-center gap-3' ><FaPhoneAlt /> Telefone</Link></Button>
-            <Button className="bg-purple-800 hover:bg-purple-950 transition delay-150 duration-300 ease-in-out mt-6 text-xl p-4"><Link href="/" className='flex p-2 items-center gap-3' ><SiWhatsapp /> WhatsApp</Link></Button>
+            <Button className="bg-purple-800 hover:bg-purple-950 transition delay-150 duration-300 ease-in-out mt-6 text-xl p-4"><Link href="123456789101" className='flex p-2 items-center gap-3' ><Phone /> Telefone</Link></Button>
+            <Button className="bg-purple-800 hover:bg-purple-950 transition delay-150 duration-300 ease-in-out mt-6 text-xl p-4"><Link href="/" className='flex p-2 items-center gap-3' ><MessageCircleMore /> WhatsApp</Link></Button>
             </div>
           </div>
         </div>
