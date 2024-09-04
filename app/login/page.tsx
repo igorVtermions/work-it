@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 
 export default function Login() {
   return (
-    <section className='flex items-center justify-center w-full pt-8 flex-col'>
+    <section className='flex items-center justify-center w-full pt-8 flex-col min-h-[70vh]'>
       <h1 className="text-black font-bold text-2xl mb-8">Work <span className="text-white bg-purple-800 rounded-sm px-1">it</span></h1>
       <Tabs defaultValue="login" className="w-[320px] md:w-[450px]">
         <TabsList className="grid w-full grid-cols-2">
